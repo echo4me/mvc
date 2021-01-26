@@ -1,0 +1,19 @@
+{
+    "name": "mvc/app",
+    "type": "project",
+    "description": "The MVC Framework.",
+    "autoload":{
+        "psr-4": {
+            "MVC\\":"app"
+        }
+
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.11"
+        }
+    },
+    "require": {
+        "rakit/validation": "^1.4"
+    }
+}
